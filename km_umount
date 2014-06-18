@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sudo umount /server/个人目录/
+sudo umount /server/公共资料/
+sudo umount /server/项目软件发布目录/
+sudo umount /server/软件资料/
+sudo umount /server/智能机资料区/

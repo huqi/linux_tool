@@ -1,0 +1,16 @@
+#!/bin/sh
+
+sudo mkdir /server/
+sudo mkdir /server/个人目录/
+sudo mkdir /server/公共资料/
+sudo mkdir /server/软件资料/
+sudo mkdir /server/项目软件发布目录/
+sudo mkdir /server/智能机资料区/
+
+ln -snf /server ~/server
+
+sudo mount -t cifs //192.168.40.120/个人目录 /server/个人目录/ -o username=huqi,password=123456
+sudo mount -t cifs //192.168.40.120/公共资料 /server/公共资料/ -o username=huqi,password=123456
+sudo mount -t cifs //192.168.40.120/软件资料 /server/软件资料/ -o username=huqi,password=123456
+sudo mount -t cifs //192.168.40.120/项目软件发布目录 /server/项目软件发布目录/ -o username=huqi,password=123456
+sudo mount -t cifs //192.168.40.120/智能机资料区 /server/智能机资料区/ -o username=huqi,password=123456
