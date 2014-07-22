@@ -3,14 +3,13 @@
 #
 
 
-# Modified and deleted files
-# ==========================
+# Tracked files
+# =============
 #
 # GIT: ignoring changes in tracked files
 #
 # git update-index --assume-unchanged <file>
 # git update-index --no-assume-unchanged <file>
-#
 
 custom/common/PLUTO_MMI/nvram_custpack_table.c
 custom/common/hal/nvram/nvram_lid_statistics.h
