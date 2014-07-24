@@ -2,14 +2,14 @@
 # MTK Project 6260A gitignore
 #
 
-
+#
 # Tracked files
-# =============
 #
 # GIT: ignoring changes in tracked files
 #
 # git update-index --assume-unchanged <file>
 # git update-index --no-assume-unchanged <file>
+#
 
 custom/common/PLUTO_MMI/nvram_custpack_table.c
 custom/common/hal/nvram/nvram_lid_statistics.h
@@ -25,12 +25,11 @@ tst/database_classb/pstrace_db/MMI_conn_app_trc_gen.h
 tst/database_classb/pstrace_db/MMI_mre_trc_gen.h
 tst/database_classb/pstrace_db/drv_trc_gen.h
 
-
+#
 # Untracked files
-# ===============
+#
 
 # Resource files
-# --------------
 plutommi/Customer/CustomerInc/*.*
 plutommi/Customer/Audio/*
 plutommi/Customer/Images/*
@@ -45,7 +44,6 @@ plutommi/Customer/Images/*
 **Output/
 
 # Other files
-# -----------
 .svn/
 *.cmm
 MoDIS_VC9/
