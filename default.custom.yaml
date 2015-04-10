@@ -1,0 +1,14 @@
+patch:
+  # Input method list
+  schema_list:
+    - schema: wubi_pinyin
+
+  # Switch Key
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_lock: clear
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: commit_code
+    Shift_R: commit_code
