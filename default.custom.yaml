@@ -2,6 +2,7 @@ patch:
   # Input method list
   schema_list:
     - schema: wubi_pinyin
+    - schema: emoji
 
   # Switch Key
   ascii_composer/good_old_caps_lock: true
