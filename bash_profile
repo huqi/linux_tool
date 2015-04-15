@@ -3,7 +3,7 @@ source ~/.git-completion.bash
 
 # alias
 alias cls="clear"
-alias ll="ls -alG"
+alias ll="ls -alG"    # Mac G for color
 alias ls="ls -G"
 alias e="emacs"
 ## git
