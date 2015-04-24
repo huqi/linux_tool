@@ -5,6 +5,7 @@ source ~/.git-completion.bash
 alias cls="clear"
 alias ll="ls -alG"
 alias ls="ls -G"
+alias rm="rmtrash"
 
 ## tools
 alias e="emacs"
