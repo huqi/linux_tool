@@ -99,8 +99,8 @@ alias -s bz2='tar -xjvf'
 alias rm="rmtrash"
 
 ## tools
-alias axel="axel -a"
-alias wget="wget -c"
+alias axel="axel -a -o ~/Downloads"
+alias wget="wget -c -P ~/Downloads/"
 
 # PATH
 export PATH=~/Bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
