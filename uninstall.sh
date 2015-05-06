@@ -8,7 +8,7 @@ config_dir=~/$tool_dir/profiles
 
 if [ ! -L ~/.zshrc ]; then
     echo "ERROR: It has not been installed"
-   # exit 1
+    # exit 1
 fi
 
 if [ ! -d $temp_dir ]; then
