@@ -1,0 +1,10 @@
+[core]
+	editor = emacsclient -t -a \"\"
+[user]
+	name = huqi
+	email = daqi0004@gmail.com
+[push]
+	default = simple
+
+[github]
+	oauth-token = ddb9597cf6d2a62ae637af94efbac22d7709e396
