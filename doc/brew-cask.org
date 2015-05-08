@@ -1,0 +1,17 @@
+adwaremedic
+baiducloud
+bittorrent-sync
+caffeine
+dnscrypt
+dropbox
+evernote
+google-drive
+ichm
+keepassx
+kindle
+mplayerx
+torbrowser
+twitterrific
+utorrent
+vlc
+xmind
