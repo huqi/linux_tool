@@ -1,13 +1,14 @@
 #!/bin/sh
 
 test_file=.bashrc
-ignore_files=(. .. .DS_Store)
+gitconfig_sample=".gitconfig-sample-local"
+ignore_files=(. .. .DS_Store $gitconfig_sample)
 TEMP_DIR=$PWD/temp
 CONFIG_DIR=$PWD/profiles
 
-#
+####################################
 # Option
-#
+####################################
 while getopts "rh" opts; do
     case $opts in
         r)
@@ -21,34 +22,43 @@ while getopts "rh" opts; do
     esac
 done
 
-#
+####################################
 # Check
-#
+####################################
 if [ ! "$remove" ] ; then
-    echo "Uninstall Start..."
-    echo "------------------"
-    msg="Install success"
+    action="Install"
+
     if [ -L $HOME/$test_file ] ; then
         echo "ERROR: May be already installed"
         exit 1
     fi
+
+    # gitconfig local
+    if [ -f $CONFIG_DIR/$gitconfig_sample ] ; then
+        cp $CONFIG_DIR/$gitconfig_sample $CONFIG_DIR/.gitconfig-local
+    fi
 else
-    echo "Install Start..."
-    echo "----------------"
-    msg="Unistall success"
+    action="Uninstall"
+
     if [ ! -L $HOME/$test_file ] ; then
         echo "ERROR: Has not been installed "
         exit 2
     fi
 fi
 
-#
+echo "$action Start..."
+echo "----------------------"
+
+####################################
 # TEMP DIR
-#
+####################################
 if [ ! -d $TEMP_DIR ]; then
     mkdir $TEMP_DIR
 fi
 
+####################################
+# Copy file
+####################################
 for file_path in $CONFIG_DIR/.* ; do
 
     ignored=0
@@ -75,4 +85,4 @@ for file_path in $CONFIG_DIR/.* ; do
     fi
 done
 
-echo "\n$msg"
+echo "$action done"
