@@ -50,9 +50,10 @@ plugins=(git osx brew brew-cask colored-man)
 # User configuration
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source ~/Bin/script/my-shell.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
