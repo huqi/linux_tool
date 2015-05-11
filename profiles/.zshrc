@@ -79,19 +79,6 @@ source ~/Bin/script/my-shell.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cls='clear'
-alias ll='ls -l'
-alias la='ls -a'
-alias rm="rmtrash"
-alias e='emacsclient -t -a ""'
-alias estop="emacsclient -e '(kill-emacs)'"
-alias -s py=e
-alias -s c=e
-alias -s txt=e
-alias -s gz='tar -xzvf'
-alias -s tgz='tar -xzvf'
-alias -s zip='unzip'
-alias -s bz2='tar -xjvf'
 
 ## tools
 alias axel="axel -a -o ~/Downloads"
