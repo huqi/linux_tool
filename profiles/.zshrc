@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew brew-cask colored-man)
+plugins=(git osx brew brew-cask colored-man autojump)
 
 # User configuration
 
