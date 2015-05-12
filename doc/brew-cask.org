@@ -5,13 +5,15 @@ caffeine
 dnscrypt
 dropbox
 evernote
+gimp
 google-drive
 ichm
 keepassx
 kindle
 mplayerx
+squirrel
+the-unarchiver
 torbrowser
 twitterrific
-utorrent
 vlc
 xmind
