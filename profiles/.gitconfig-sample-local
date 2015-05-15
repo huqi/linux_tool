@@ -1,3 +1,6 @@
 [user]
 	name = name
 	email = XXXX@email.com
+[core]
+# input for OSX or Linux, true for Windows @https://help.github.com/articles/dealing-with-line-endings/
+	autocrlf = input
