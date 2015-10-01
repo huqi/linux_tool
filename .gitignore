@@ -2,3 +2,4 @@
 *.bak
 /temp
 /profiles/.gitconfig-local
+.DS_Store
